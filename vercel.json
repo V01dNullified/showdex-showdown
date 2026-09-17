@@ -1,0 +1,11 @@
+
+echo '{
+  "rewrites": [
+    { "source": "/data/(.*)", "destination": "https://play.pokemonshowdown.com/data/$1" }
+  ]
+}' > vercel.json
+
+
+git add vercel.json
+git commit -m "Add Vercel rewrite to proxy Smogon data files"
+git push origin main
