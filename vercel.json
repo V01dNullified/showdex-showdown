@@ -2,6 +2,13 @@
   "version": 2,
   "cleanUrls": true,
   "rewrites": [
+    { "source": "/showdex/(.*)", "destination": "/showdex/$1" },
+    { "source": "/data/(.*)", "destination": "/data/$1" },
+    { "source": "/js/(.*)", "destination": "/js/$1" },
+    { "source": "/config/(.*)", "destination": "/config/$1" },
+    { "source": "/fx/(.*)", "destination": "/fx/$1" },
+    { "source": "/sprites/(.*)", "destination": "/sprites/$1" },
+    { "source": "/audio/(.*)", "destination": "/audio/$1" },
     { "source": "/(.*)", "destination": "/play.pokemonshowdown.com/$1" }
   ]
 }
