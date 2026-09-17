@@ -1,5 +1,5 @@
 {
   "rewrites": [
-    { "source": "/data/(.*)", "destination": "https://play.pokemonshowdown.com/data/$1" }
+    { "source": "/(.*)", "destination": "https://play.pokemonshowdown.com/$1" }
   ]
 }
