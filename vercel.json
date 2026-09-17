@@ -2,13 +2,9 @@
   "version": 2,
   "cleanUrls": true,
   "routes": [
+    { "src": "/", "dest": "/play.pokemonshowdown.com/index-new.html" },
     { "src": "/showdex/(.*)", "dest": "/showdex/$1" },
     { "src": "/config/(.*)", "dest": "/config/$1" },
-    { "src": "/js/(.*)", "dest": "/play.pokemonshowdown.com/js/$1" },
-    { "src": "/data/(.*)", "dest": "/play.pokemonshowdown.com/js/data/$1" },
-    { "src": "/sprites/(.*)", "dest": "/play.pokemonshowdown.com/sprites/$1" },
-    { "src": "/fx/(.*)", "dest": "/play.pokemonshowdown.com/fx/$1" },
-    { "src": "/style/(.*)", "dest": "/play.pokemonshowdown.com/style/$1" },
-    { "src": "/(.*)", "dest": "/play.pokemonshowdown.com/index-new.html" }
+    { "src": "/(.*)", "dest": "/play.pokemonshowdown.com/$1" }
   ]
 }
