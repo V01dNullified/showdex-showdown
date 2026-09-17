@@ -1,14 +1,14 @@
 {
   "version": 2,
   "cleanUrls": true,
-  "rewrites": [
-    { "source": "/showdex/(.*)", "destination": "/showdex/$1" },
-    { "source": "/data/(.*)", "destination": "/data/$1" },
-    { "source": "/js/(.*)", "destination": "/js/$1" },
-    { "source": "/config/(.*)", "destination": "/config/$1" },
-    { "source": "/fx/(.*)", "destination": "/fx/$1" },
-    { "source": "/sprites/(.*)", "destination": "/sprites/$1" },
-    { "source": "/audio/(.*)", "destination": "/audio/$1" },
-    { "source": "/(.*)", "destination": "/play.pokemonshowdown.com/$1" }
+  "routes": [
+    { "src": "/showdex/(.*)", "dest": "/showdex/$1" },
+    { "src": "/data/(.*)", "dest": "/data/$1" },
+    { "src": "/js/(.*)", "dest": "/js/$1" },
+    { "src": "/config/(.*)", "dest": "/config/$1" },
+    { "src": "/fx/(.*)", "dest": "/fx/$1" },
+    { "src": "/sprites/(.*)", "dest": "/sprites/$1" },
+    { "src": "/audio/(.*)", "dest": "/audio/$1" },
+    { "src": "/(.*)", "dest": "/play.pokemonshowdown.com/$1" }
   ]
 }
